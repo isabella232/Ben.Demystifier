@@ -3,7 +3,7 @@
 
 namespace System.Collections.Generic.Enumerable
 {
-    public static class EnumerableIList
+    internal static class EnumerableIList
     {
         public static EnumerableIList<T> Create<T>(IList<T> list) => new EnumerableIList<T>(list);
     }
